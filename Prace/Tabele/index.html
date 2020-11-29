@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="discription" content="wyporzyczalnia"/>
+		<meta name="keywords" content="html css kurs nauka"/>
+		<meta name="autor" content="ZS2"/>
+		<title>Tabele</title>
+	
+		<link rel="stylesheet" typ="text/css" href="style.css">
+		
+<style>
+table td
+{text-align: center; }
+#imie
+{background-color:red;}
+</style>
+		
+	</head>
+	<body>
+	
+		<table border="1px">
+		
+		<tr>
+			<th>Produkt</th>
+			<th>Cena</th>
+			<th>Obniżka</th>
+			<th>Cena po obniżce</th>
+		</tr>
+			
+		<tr>
+			<td>buty</td>
+			<td>120</td>
+			<td>10</td>
+			<td>110</td>
+		
+		</tr>
+		
+		<tr>
+			<td>spodnie</td>
+			<td>150</td>
+			<td>10</td>
+			<td>140</td>
+		
+		</tr>
+		
+		</table>
+		<br>
+	
+	<table border="1px" width="250px">
+		<tr>
+			<th>1</th>
+			<th colspan="2">2</th>	<!--łączenie komórek w poziomie-->
+			
+		
+		</tr>
+		
+		<tr>
+			<td rowspan="2">4</td> <!--łączenie komórek w pionie-->
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>8</td>
+		
+		</tr>
+	
+	</table border="1px" width="250px">
+	
+	
+	<table border="1px" width="250px">
+		<tr id="imie">
+			<th>np</th>
+			<th colspan="2">Imię i Nazwisko</th>
+	
+			<th>Adres</th>
+			
+		
+		</tr>
+		<br>
+		<tr>
+			<td>1</td>
+			<td>Ola</td>
+			<td>Kowalska</td>
+			<td>Klonowa 10</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Tomasz</td>
+			<td>Obarzanek</td>
+			<td>Klonowa 10</td>
+		
+		</tr>
+	
+	</table>
+	<br>
+	<table border="1px" width="250px" height="100px">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td rowspan="3">3</td>
+		</tr>
+		<tr>
+			<td rowspan="2">1a</td>
+			<td>2a</td>
+		</tr>
+		<tr>
+			<td>2b</td>
+		</tr>
+	</table>
+	
+</body>
+</html>
+
+

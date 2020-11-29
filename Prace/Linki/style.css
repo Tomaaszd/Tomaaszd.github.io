@@ -1,0 +1,20 @@
+a
+{
+	color: blue;
+	text-decoration:none; /*bez podkreślenia*/
+	transition:color 0.5s;
+	font-family: 'Sansita Swashed', cursive;
+
+}
+
+
+a:visited	/*styl linku odwiedonego(kolor)*/		/*Podklasa*/
+{
+	color: red;
+	
+}
+a:hover
+{
+	color: green;
+	text-decoration:underline;
+}	
