@@ -1,3 +1,28 @@
 .button {
-	color:blue;
+	color:#1360D4;
+}
+a
+{
+	color: blue;
+	text-decoration:none; /*bez podkreślenia*/
+	transition:color 0.5s;
+	font-family: 'Sansita Swashed', cursive;
+
+}
+
+
+a:visited	/*styl linku odwiedonego(kolor)*/		/*Podklasa*/
+{
+	color: #FF1C00;
+	
+}
+a:hover		/* Wybierz każdy element <a>, który zostanie najechany kursorem */
+{
+	color: #A4CC0E;
+	text-decoration:underline;
+}	
+
+h1	{
+	font-family: 'Nerko One', cursive;
+	font-size: 100px;
 }
